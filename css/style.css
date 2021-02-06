@@ -277,11 +277,11 @@ small {
 }
 
 .about-txt p {
-  margin-top: 30px;
+  margin-top: 20px;
 }
 
 .about-txt .readmore-btn {
-  margin-top: 70px;
+  margin-top: 50px;
 }
 
 .works-culture {
@@ -319,7 +319,7 @@ small {
 }
 
 .topics {
-  padding: 40px 15px;
+  padding: 40px 10px;
 }
 
 .topics-txt {
@@ -402,7 +402,7 @@ footer {
 
 .vision {
   width: 100%;
-  padding: 80px 15px;
+  padding: 80px 10px;
 }
 
 .vision-txt p + p {
@@ -443,7 +443,7 @@ footer {
 }
 
 .company {
-  padding: 0 15px;
+  padding: 0 10px;
 }
 
 .company h2 {
