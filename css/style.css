@@ -105,6 +105,7 @@ small {
 .header-wrapper .burgermenu {
   display: flex;
   align-items: center;
+  cursor: pointer;
 }
 
 .header-wrapper .burgermenu-toggle {
@@ -395,8 +396,6 @@ footer {
   display: none;
   z-index: 50;
   color: #333;
-}
-.pageTop-icon {
   font-size: 40px;
 }
 

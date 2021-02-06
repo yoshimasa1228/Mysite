@@ -34,13 +34,14 @@ $('.js-pageTop').each(function(){
 // burgermenu
 
 $('.js-burgermenu').each(function(){
-  var $btn=$(this),
+  var $bgmenu=$(this),
+  $btn=$('.js-btn'),
   $nav=$('.navigation'),
   $navList=$nav.find('li>a'),
   $body = $("body");
 
 
-  $btn.on('click',function(){
+  $bgmenu.on('click',function(){
     $btn.toggleClass('open');
 
     if ($btn.hasClass('open')){
