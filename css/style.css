@@ -161,23 +161,23 @@ small {
 }
 
 .navigation-inner {
-  margin-top: 20vh;
+  margin-top: 10vh;
   text-align: center;
 }
 
 .navigation-list {
-  margin-top: 20px;
+  margin-top: 10px;
 }
 
 .navigation-list li {
   font-family: "Motserrat", sans-serif;
-  font-size: 20px;
+  font-size: 16px;
   font-weight: 600;
   color: #fff;
 }
 
 .navigation-list li + li {
-  margin-top: 30px;
+  margin-top: 15px;
 }
 
 .landing {
@@ -245,11 +245,11 @@ small {
   z-index: 4;
   letter-spacing: 0.1em;
   top: 20vh;
-  left: 10%;
+  left: 5%;
 }
 
 .landing-txt.-secondary {
-  left: 15%;
+  left: 10%;
   top: 15vh;
 }
 
@@ -265,7 +265,7 @@ small {
 .about-img {
   width: 100%;
   height: auto;
-  background: url(./img/about-img.png) no-repeat;
+  background: url(../img/about-img.png) no-repeat;
   background-position: center center;
   padding: 50px 15px;
 }
@@ -606,6 +606,23 @@ footer {
   .header-wrapper {
     padding: 10px 30px;
   }
+  
+  .navigation-inner {
+  margin-top: 20vh;
+}
+
+.navigation-list {
+  margin-top: 20px;
+}
+
+.navigation-list li {
+  font-size: 20px;
+}
+
+.navigation-list li + li {
+  margin-top: 30px;
+}
+   
   .landing-bg {
     width: 73.2%;
   }
