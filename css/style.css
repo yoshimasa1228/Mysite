@@ -84,6 +84,7 @@ small {
   width: 100%;
   z-index: 99;
   top: 0;
+  height:80px;
 }
 
 .header-wrapper {
@@ -95,11 +96,12 @@ small {
 
 .header-wrapper .sitelogo {
   width: 125px;
+  height:auto;
 }
 
 .header-wrapper .sitelogo img {
   width: 100%;
-  height: auto;
+  height: 100%;
 }
 
 .header-wrapper .burgermenu {
@@ -243,13 +245,13 @@ small {
   position: absolute;
   z-index: 4;
   letter-spacing: 0.1em;
-  top: 25vh;
+  top: 20vh;
   left: 20%;
 }
 
 .landing-txt.-secondary {
   left: 15%;
-  top: 20vh;
+  top: 15vh;
 }
 
 .landing-txt .fs-lg {
