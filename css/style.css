@@ -395,7 +395,7 @@ footer {
   display: none;
   z-index: 50;
   color: #333;
-  font-size: 40px;
+  
 }
 
 .vision {
@@ -646,9 +646,7 @@ footer {
     width: 520px;
     margin: 0 auto;
   }
-  .pageTop {
-    font-size: 60px;
-  }
+
   .vision-txt {
     padding-left: 18%;
   }
