@@ -8,7 +8,6 @@ $('.js-pageTop').each(function(){
 
   $window.scroll(function(){
     var height=$window.scrollTop();
-    console.log('hello');
     if(height>=150){
       
       $pageTop.fadeIn('slow');
