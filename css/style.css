@@ -395,6 +395,8 @@ footer {
   display: none;
   z-index: 50;
   color: #333;
+}
+.pageTop-icon {
   font-size: 40px;
 }
 
