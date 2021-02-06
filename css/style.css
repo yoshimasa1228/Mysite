@@ -1,4 +1,3 @@
-@charset "UTF-8";
 .readmore-btn {
   font-family: "Montserrat", sans-serif;
   font-size: 12px;
@@ -17,15 +16,18 @@
 }
 
 body {
-  font-family: "Noto Sans JP", sans-serif;
+  font-family: "Montserrat","Noto Sans JP", sans-serif;
   font-size: 14px;
   font-weight: 400;
   line-height: 2;
   color: #333;
 }
 
+html, body {
+  height: 100%;
+}
+
 h2 {
-  font-family: "Motserrat", "Noto Sans JP", sans-serif;
   font-size: 16px;
   font-weight: bold;
   color: #fff;
@@ -33,23 +35,25 @@ h2 {
 }
 
 h3 {
-  font-family: "Montserrat", sans-serif;
   font-size: 28px;
   font-weight: 800;
   color: #333;
 }
 
-.fs-lg {
-  font-family: "Montserrat", sans-serif;
-  font-size: 56px;
+.fs-xl {
+  font-size: 50px;
   font-weight: 800;
-  line-height: 0.95;
+  line-height: 1.2;
   color: #fff;
-  letter-spacing: 0.063em;
 }
 
-.fs-yugothic {
-  font-family: "游ゴシック", "Yu Gothic";
+.fs-lg {
+  font-size: 24px;
+  font-weight: bold;
+  color: #333;
+}
+
+.fs-md {
   font-size: 16px;
   font-weight: bold;
   color: #fff;
@@ -57,8 +61,7 @@ h3 {
   line-height: 1.8;
 }
 
-.fs-mont {
-  font-family: "Montserrat", sans-serif;
+.fs-smB {
   font-size: 14px;
   font-weight: 800;
   color: #fff;
@@ -84,7 +87,7 @@ small {
 }
 
 .header-wrapper {
-  padding: 15px 15px;
+  padding: 10px 15px;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -141,7 +144,7 @@ small {
   background-color: rgba(0, 0, 0, 0.8);
   z-index: 5;
   width: 50vw;
-  height: 100vh;
+  height: 100%;
   right: 0;
   z-index: 50;
 }
@@ -152,7 +155,7 @@ small {
 }
 
 .navigation-list {
-  margin-top: 30px;
+  margin-top: 20px;
 }
 
 .navigation-list li {
@@ -168,7 +171,11 @@ small {
 
 .landing {
   width: 100%;
-  height: 100vh;
+  height: 100%;
+}
+
+.landing.-secondary {
+  height: 60%;
 }
 
 .landing-inner {
@@ -185,16 +192,8 @@ small {
   background-color: #222;
 }
 
-.landing-txt {
-  position: absolute;
-  z-index: 4;
-  top: 40%;
-  left: 10%;
-  transform: translateY(-50%);
-}
-
-.landing-txt .fs-lg {
-  margin-top: 15px;
+.landing-bg.-secondary {
+  height: 67vh;
 }
 
 .landing-img {
@@ -203,6 +202,10 @@ small {
   height: 86vh;
   top: 0;
   left: 0;
+}
+
+.landing-img.-secondary {
+  height: 58vh;
 }
 
 .landing-img img {
@@ -223,6 +226,26 @@ small {
   z-index: 3;
 }
 
+.landing-txt {
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
+  width: fit-content;
+  position: absolute;
+  z-index: 4;
+  letter-spacing: 0.1em;
+  top: 25vh;
+  left: 20%;
+}
+
+.landing-txt.-secondary {
+  left: 15%;
+  top: 20vh;
+}
+
+.landing-txt .fs-lg {
+  margin-top: 15px;
+}
+
 .about {
   margin-top: 80px;
   width: 100%;
@@ -230,26 +253,16 @@ small {
 
 .about-img {
   width: 100%;
-  height: 540px;
-  position: relative;
-}
-
-.about-img img {
-  width: 100%;
-  height: 100%;
-  -o-object-fit: cover;
-     object-fit: cover;
+  height: auto;
+  background: url(/img/about-img.png) no-repeat;
+  background-position: center center;
+  padding: 50px 15px;
 }
 
 .about-txt {
   padding: 50px 15px 50px 30px;
-  position: absolute;
-  left: 15px;
-  right: 15px;
   background-color: #fff;
   max-width: 590px;
-  top: 50%;
-  transform: translateY(-50%);
 }
 
 .about-txt p {
@@ -369,29 +382,15 @@ footer {
 .pageTop {
   position: fixed;
   right: 30px;
-  bottom: 50px;
+  bottom: 30px;
   display: none;
-  z-index: 5;
-  color: #525252;
-}
-
-.landing-txt.landingTxt-ver2 {
-  left: -22%;
+  z-index: 50;
+  color: #333;
 }
 
 .vision {
-  margin-top: 80px;
   width: 100%;
-  padding-left: calc(35.9vw - 121.8px);
-}
-
-.vision h4 {
-  color: #333;
-  margin-top: 32px;
-}
-
-.vision-txt {
-  margin-top: 32px;
+  padding: 80px 15px;
 }
 
 .vision-txt p + p {
@@ -399,7 +398,6 @@ footer {
 }
 
 .message {
-  margin-top: 80px;
   width: 100%;
 }
 
@@ -491,7 +489,6 @@ footer {
 }
 
 .contactForm label {
-  font-family: "Noto Sans JP", sans-serif;
   font-size: 16px;
   font-weight: bold;
   line-height: 2;
@@ -503,7 +500,6 @@ footer {
 }
 
 .contactForm label .must {
-  font-family: "Noto Sans JP", sans-serif;
   font-size: 14px;
   font-weight: bold;
   line-height: 2;
@@ -551,7 +547,6 @@ footer {
 }
 
 .contactForm .form .privacyPolicy-ttl {
-  font-family: "Noto Sans JP", sans-serif;
   font-size: 16px;
   font-weight: bold;
   line-height: 2;
@@ -583,6 +578,7 @@ footer {
   padding: 9px 66px;
   background-color: #333;
   color: #fff;
+  font-size: 18px;
 }
 
 @media (min-width: 640px) {
@@ -592,11 +588,26 @@ footer {
   h3 {
     font-size: 32px;
   }
+  .fs-xl {
+    font-size: 60px;
+  }
+  .header-wrapper {
+    padding: 10px 30px;
+  }
   .landing-bg {
     width: 73.2%;
   }
+  .landing-bg.-secondary {
+    height: 60vh;
+  }
+  .landing-img.-secondary {
+    height: 52vh;
+  }
   .landing-txt {
-    left: 40%;
+    left: 55%;
+  }
+  .landing-txt.-secondary {
+    left: 45%;
   }
   .about-img {
     min-height: 480px;
@@ -627,6 +638,9 @@ footer {
   }
   .landing-txt.landingTxt-ver2 {
     left: 0%;
+  }
+  .vision-txt {
+    padding-left: 18%;
   }
   .message {
     padding-left: calc(15.2vw - 59.5px);
@@ -667,17 +681,16 @@ footer {
   .readmore-btn {
     font-size: 16px;
   }
-  .fs-lg {
+  .fs-xl {
     font-size: 72px;
-    line-height: 1.18;
   }
   h2 {
     font-size: 20px;
   }
-  .fs-yugothic {
+  .fs-md {
     font-size: 20px;
   }
-  .fs-mont {
+  .fs-smB {
     font-size: 20px;
   }
   .pc {
@@ -691,12 +704,25 @@ footer {
     margin: 0 auto;
     padding: 0;
   }
+  .header-wrapper {
+    padding: 10px 56px;
+  }
   .navigation {
     margin-right: -36vw;
     width: 36vw;
   }
   .landing-bg {
     width: 54%;
+  }
+  .landing-bg.-secondary {
+    height: 62.7vh;
+  }
+  .landing-txt {
+    left: 62%;
+    top: 17vh;
+  }
+  .landing-txt.-secondary {
+    left: 55%;
   }
   .about {
     background: linear-gradient(to top, #f0f0f0 0%, #f0f0f0 20%, #fff 20%);
@@ -756,6 +782,9 @@ footer {
   }
   .landing-txt.landingTxt-ver2 {
     left: 20%;
+  }
+  .vision-txt {
+    padding-left: 26%;
   }
   .contactForm {
     padding: 0;
