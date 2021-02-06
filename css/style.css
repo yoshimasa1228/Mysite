@@ -93,6 +93,10 @@ small {
   align-items: center;
 }
 
+.header-wrapper .sitelogo {
+  width: 125px;
+}
+
 .header-wrapper .burgermenu {
   display: flex;
   align-items: center;
@@ -381,11 +385,11 @@ footer {
 
 .pageTop {
   position: fixed;
-  right: 30px;
-  bottom: 30px;
-  display: none;
+  right: 20px;
+  bottom: 20px;
   z-index: 50;
   color: #333;
+  font-size: 40px;
 }
 
 .vision {
@@ -636,8 +640,8 @@ footer {
     width: 520px;
     margin: 0 auto;
   }
-  .landing-txt.landingTxt-ver2 {
-    left: 0%;
+  .pageTop {
+    font-size: 60px;
   }
   .vision-txt {
     padding-left: 18%;
@@ -707,6 +711,9 @@ footer {
   .header-wrapper {
     padding: 10px 56px;
   }
+  .header-wrapper .sitelogo {
+    width: 260px;
+  }
   .navigation {
     margin-right: -36vw;
     width: 36vw;
@@ -723,6 +730,9 @@ footer {
   }
   .landing-txt.-secondary {
     left: 55%;
+  }
+  .pageTop {
+    font-size: 60px;
   }
   .about {
     background: linear-gradient(to top, #f0f0f0 0%, #f0f0f0 20%, #fff 20%);
