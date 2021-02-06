@@ -97,6 +97,11 @@ small {
   width: 125px;
 }
 
+.header-wrapper .sitelogo img {
+  width: 100%;
+  height: auto;
+}
+
 .header-wrapper .burgermenu {
   display: flex;
   align-items: center;
@@ -387,6 +392,7 @@ footer {
   position: fixed;
   right: 20px;
   bottom: 20px;
+  display: none;
   z-index: 50;
   color: #333;
   font-size: 40px;
