@@ -431,7 +431,7 @@ footer {
   background-color: #f0f0f0;
   top: -75px;
   z-index: -1;
-  padding: 100px 40px 50px;
+  padding: 100px 10px 50px;
 }
 
 .message-txt p:first-of-type {
@@ -452,7 +452,7 @@ footer {
 }
 
 .company-list {
-  padding: 0 20px;
+  padding: 0 10px;
   margin-top: 30px;
 }
 
@@ -469,7 +469,7 @@ footer {
 }
 
 .company-list dl dd {
-  padding-left: 90px;
+  padding-left: 140px;
   border-bottom: 1px solid #ddd;
 }
 
