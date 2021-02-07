@@ -603,6 +603,9 @@ footer {
   .fs-xl {
     font-size: 60px;
   }
+  .fs-smB {
+    font-size: 20px;
+  }
   .tab {
     display:block;
   }
@@ -733,9 +736,7 @@ footer {
   .fs-md {
     font-size: 20px;
   }
-  .fs-smB {
-    font-size: 20px;
-  }
+  
   .pc {
     display: block;
   }
