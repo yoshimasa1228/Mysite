@@ -682,7 +682,9 @@ footer {
   .message-txt {
     float: right;
     width: 64.3%;
+    padding: 100px 40px 50px;
   }
+
   .company {
     clear: right;
     padding-left: calc(15.2vw - 59.5px);
