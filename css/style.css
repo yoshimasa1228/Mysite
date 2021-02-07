@@ -612,6 +612,9 @@ footer {
   .header-wrapper {
     padding: 10px 30px;
   }
+   .header-wrapper .sitelogo {
+    width: 260px;
+  }
   
   .navigation-inner {
   margin-top: 20vh;
@@ -745,9 +748,7 @@ footer {
   .header-wrapper {
     padding: 10px 56px;
   }
-  .header-wrapper .sitelogo {
-    width: 260px;
-  }
+ 
   .navigation {
     margin-right: -36vw;
     width: 36vw;
