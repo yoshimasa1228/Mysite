@@ -249,7 +249,7 @@ small {
 }
 
 .landing-txt.-secondary {
-  left: 5%;
+  left: 0%;
   top: 15vh;
 }
 
@@ -602,6 +602,9 @@ footer {
   }
   .fs-xl {
     font-size: 60px;
+  }
+  .md {
+    display:none;
   }
   .header-wrapper {
     padding: 10px 30px;
