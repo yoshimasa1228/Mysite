@@ -469,7 +469,7 @@ footer {
 }
 
 .company-list dl dd {
-  padding-left: 140px;
+  padding-left: 90px;
   border-bottom: 1px solid #ddd;
 }
 
@@ -692,6 +692,9 @@ footer {
     padding-left: calc(40.2vw - 278.6px);
     padding-right: 0;
   }
+  .company-list dl dd {
+  padding-left: 150px;
+}
   .company-map {
     padding-bottom: 35%;
   }
