@@ -41,7 +41,7 @@ h3 {
 }
 
 .fs-xl {
-  font-size: 50px;
+  font-size: 46px;
   font-weight: 800;
   line-height: 1.2;
   color: #fff;
@@ -249,7 +249,7 @@ small {
 }
 
 .landing-txt.-secondary {
-  left: 0%;
+  left: 5%;
   top: 15vh;
 }
 
